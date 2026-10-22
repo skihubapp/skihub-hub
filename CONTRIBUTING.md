@@ -39,7 +39,7 @@ This hub does not supply a runnable product environment or automatic source acce
 
 ## Review and acceptance
 
-Baran Bayran is the initial reviewer. A technical second reviewer is to be assigned before accepting technical changes. If Baran authors a PR while he is the only available reviewer, assign another authorized reviewer; the PR waits until then. Authors cannot approve their own PRs.
+Baran Bayran is the initial maintainer and reviews external documentation PRs. Product-code integration requires an authorized technical reviewer, to be assigned. Authors cannot approve their own PRs in GitHub. For this initial agent-prepared documentation hub only, Baran may review the rendered preview and record an explicit publication decision; record that decision separately and do not manufacture a GitHub approval. Later self-authored contribution PRs require another authorized reviewer.
 
 CODEOWNERS routes review requests. It does not make approval mandatory by itself, confer access, or establish that branch protections are enabled. A passing check is one input to acceptance; maintainers also review accuracy, scope, privacy, terms, and task criteria. No hub PR automatically merges to product source or deploys a release.
 

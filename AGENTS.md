@@ -36,7 +36,7 @@ Instructor identity/document verification, eligibility for the selected resort, 
 
 ## Review and authority
 
-Baran Bayran is the verified initial CODEOWNER and reviewer. A technical second reviewer is to be assigned. PR authors cannot approve their own PRs; assign another authorized reviewer before acceptance when the sole reviewer is the author. CODEOWNERS does not itself enforce review or prove repository protection.
+Baran Bayran is the verified initial CODEOWNER and reviews external documentation PRs. Product-code integration needs an authorized technical reviewer, to be assigned. Authors cannot approve their own PRs in GitHub. For the initial agent-prepared documentation hub only, a founder review of the preview and explicit publication decision may be recorded separately; never label it a GitHub approval. Later self-authored contribution PRs need another authorized reviewer. CODEOWNERS does not itself enforce review or prove repository protection.
 
 Do not merge, deploy, change visibility, grant access, select a license, accept new terms, buy a plan, or contact third parties as a side effect of an editing task. Follow the specific human authorization for those actions. No license is selected for this candidate, and contribution acceptance must not open before applicable terms are approved.
 

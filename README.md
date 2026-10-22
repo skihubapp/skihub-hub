@@ -1,6 +1,6 @@
 [Türkçe](README.tr.md) · English
 
-<!-- content-version: 2026-10-22.2 -->
+<!-- content-version: 2026-10-22.3 -->
 
 # SkiHub
 
@@ -46,7 +46,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.m
 
 This hub contains shareable documentation. It does not contain the commercial product source, customer records, credentials, or private onboarding details. A branch, folder, or CODEOWNERS entry does not restrict who can read a repository.
 
-Baran Bayran is the initial reviewer. A second technical reviewer must be assigned for technical changes or a PR authored by the sole available reviewer. Authors cannot approve their own PRs. CODEOWNERS is a review-routing file; it does not by itself enforce approval or branch protection.
+Baran Bayran is the initial maintainer and reviews external documentation PRs. For this initial agent-prepared hub, he reviews the preview and records a publication decision; this is not a GitHub self-approval. Product-code changes require an authorized technical reviewer, to be assigned. CODEOWNERS routes review; it does not itself enforce approval or branch protection.
 
 <!-- section: maintain -->
 ## Keep both languages aligned

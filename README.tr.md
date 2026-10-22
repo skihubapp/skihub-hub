@@ -1,6 +1,6 @@
 [English](README.md) · Türkçe
 
-<!-- content-version: 2026-10-22.2 -->
+<!-- content-version: 2026-10-22.3 -->
 
 # SkiHub
 
@@ -46,7 +46,7 @@ Katılmadan önce [CONTRIBUTING.md](CONTRIBUTING.md), [davranış kuralları](CO
 
 Bu merkez paylaşılabilir dokümantasyon içerir. Ticari ürün kaynağı, müşteri kayıtları, erişim bilgileri veya özel geliştirici başlangıç ayrıntıları içermez. Branch, klasör veya CODEOWNERS kaydı bir depoyu kimlerin okuyabileceğini sınırlamaz.
 
-İlk inceleme sorumlusu Baran Bayran'dır. Teknik değişiklikler veya mevcut tek inceleyicinin yazdığı PR için ikinci teknik inceleyici atanmalıdır. Yazar kendi PR'ını onaylayamaz. CODEOWNERS, incelemeyi yönlendiren dosyadır; tek başına onayı veya branch korumasını zorunlu kılmaz.
+İlk bakım sorumlusu Baran Bayran'dır; dış katkıcıların dokümantasyon PR'larını inceler. Ajanın hazırladığı bu ilk merkezde önizlemeyi inceleyip yayın kararını kaydeder; bu, GitHub'da kendi PR'ını onaylamak değildir. Ürün kodu değişiklikleri için yetkili teknik inceleyici atanmalıdır. CODEOWNERS incelemeyi yönlendirir; tek başına onayı veya branch korumasını zorunlu kılmaz.
 
 <!-- section: maintain -->
 ## İki dili birlikte güncelle
