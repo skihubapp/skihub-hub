@@ -1,0 +1,81 @@
+name: Scoped contribution task
+description: Define a bounded task with real files, acceptance criteria, and an independent reviewer.
+title: "[Task] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contribution acceptance remains closed until publication and applicable terms are approved. A completed template is not approval to begin.
+        Do not publish private source details. Public starter tasks must be executable with public files and approved terms.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem, evidence, and reader or business impact
+      description: Do not treat a historical report as a confirmed current defect.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and exclusions
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: Skills, exact public files, and run path
+      description: Name actual shareable files and required tools. For private work, state only that approved private scope is required; keep details private.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and tests
+      description: Include python tools/check_hub.py for hub edits and the appropriate manual review. Do not use documentation checks as product evidence.
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Proposed priority
+      options:
+        - P1 — first-priority bounded work
+        - P2 — next-priority improvement
+        - To be assigned by maintainer
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Estimated size
+      options:
+        - XS — approximately 1–2 hours
+        - S — approximately half a day
+        - Needs scoping
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies, owner, and independent reviewer
+      description: State publication/terms gate, required access, owner, and reviewer. Use “to be assigned” rather than inventing a person.
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access requirement
+      options:
+        - Public files only
+        - Separately approved private scope required — not a public starter task
+    validations:
+      required: true
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Maintainer readiness review
+      description: Unchecked prerequisites mean the task is not Ready. Labels are assigned only after review.
+      options:
+        - label: Publication and applicable contribution terms are approved; acceptance is open.
+        - label: Resources, owner, and independent reviewer are confirmed.
+        - label: The task is executable at the stated access level with relevant checks.

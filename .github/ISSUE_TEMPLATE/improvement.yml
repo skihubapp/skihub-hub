@@ -1,0 +1,43 @@
+name: Documentation improvement
+description: Propose a focused improvement to shareable hub content after acceptance opens.
+title: "[Docs improvement] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contribution acceptance is closed pending publication and contribution terms. This is a prepared template, not an open assignment.
+        Use public information only. Product-code access, licenses, visibility, and commercial decisions require separate approval.
+  - type: textarea
+    id: need
+    attributes:
+      label: Reader need and current evidence
+      description: Describe who benefits and what you observed. Do not assert an unverified live feature or defect.
+    validations:
+      required: true
+  - type: input
+    id: files
+    attributes:
+      label: Exact public files or sections
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change and boundaries
+      description: State what changes, what is out of scope, and whether both READMEs need an update.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance and validation
+      description: Include measurable acceptance criteria, python tools/check_hub.py, and any manual language or rendering review.
+    validations:
+      required: true
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Dependencies and review
+      description: Name missing inputs. A maintainer assigns the owner, priority, size, readiness, and independent reviewer.
+    validations:
+      required: true

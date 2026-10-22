@@ -1,0 +1,4 @@
+# Review routing only. Enforced approval depends on separately configured protections.
+# A PR author cannot approve their own PR. Another authorized reviewer is required
+# when the sole available owner authors a change; technical second reviewer to be assigned.
+* @baranbayran

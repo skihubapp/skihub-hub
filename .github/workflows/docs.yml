@@ -1,0 +1,27 @@
+name: Documentation checks
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main, docs/github-hub-20261022]
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout reviewed hub
+        # Official actions/checkout v7.0.1, tag and signed commit verified 2026-10-22.
+        # https://github.com/actions/checkout/releases/tag/v7.0.1
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - name: Check documentation without external services
+        run: |
+          python3 tools/check_hub.py --self-test
+          python3 tools/check_hub.py

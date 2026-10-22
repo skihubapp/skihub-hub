@@ -1,0 +1,46 @@
+name: Documentation bug
+description: Report a reproducible problem in public hub documentation after acceptance opens.
+title: "[Docs bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contribution acceptance is currently closed pending publication and contribution terms. This template is prepared for later use; it does not open acceptance.
+        Do not include credentials, personal data, private source details, or exploit instructions. Report sensitive concerns privately to info@skihub.com.tr.
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope and privacy
+      options:
+        - label: This report concerns public hub files and contains no sensitive information.
+          required: true
+        - label: I checked current issues to avoid a duplicate and reproduced the problem where possible.
+          required: true
+  - type: input
+    id: file
+    attributes:
+      label: Public file and section
+      description: Name the public file and heading; do not include a private path.
+      placeholder: README.tr.md — Başlangıç yolunu seç
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and observed result
+      description: Include a minimal reproduction and the reader's impact. Distinguish observation from suspicion.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: checks
+    attributes:
+      label: Relevant checks and environment
+      description: If run, include python tools/check_hub.py result and browser/preview details without personal paths. Otherwise state NOT_RUN.
+    validations:
+      required: true
