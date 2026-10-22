@@ -1,6 +1,6 @@
 [English](README.md) · Türkçe
 
-<!-- content-version: 2026-10-22.4 -->
+<!-- content-version: 2026-10-22.5 -->
 
 # SkiHub
 
@@ -35,7 +35,7 @@ Dört açık durum kullanırız: **Doğrulandı**, **Geliştirme aşamasında**,
 <!-- section: contribute -->
 ## Kapsamı belli bir işe katkı ver
 
-[İlk görev listesinde](docs/contribution-paths.md), yalnız public dosyalarla yapılabilecek dört dokümantasyon işi bulunur. **HUB-01** (okunabilirlik ve dil eşliği) ile **HUB-03** (katkıcı başlangıcı) üstlenilmeye hazırdır; dış katkıları Baran Bayran inceler. HUB-02 ve HUB-04, teknik inceleyici atanana kadar **Prepared (Hazırlanmış)** durumundadır. Ürün kodu üzerinde çalışma, ayrıca onaylanmış kapsam ve uygun erişim gerektirir.
+[İlk görev listesinde](docs/contribution-paths.md), yalnız public dosyalarla yapılabilecek dört dokümantasyon işi bulunur. **HUB-01, HUB-02, HUB-03 ve HUB-04 üstlenilmeye hazırdır**. Dış katkıları Baran Bayran inceler. SkiHub Tech, kapsamı kabul edilmiş iki teknik inceleyici rolünü koordine eder: HUB-02 için Flow & QA; HUB-04 için Architecture, Evidence & Security. Ortak dosyalarda önce HUB-02, ardından güncel kabul edilmiş kaynak üzerinden HUB-04 çalışır. Bu inceleme ajanları teknik bulgu üretir; ayrı GitHub hesapları veya PR onayları değildir. Ürün kodu üzerinde çalışma, ayrıca onaylanmış kapsam ve uygun erişim gerektirir.
 
 Özgün merkez metinleri **CC BY 4.0**; denetim aracı, CI ve katkı şablonları **MIT** lisanslıdır. Kesin dosya kapsamı [LICENSE.md](LICENSE.md) içindedir. Geçerli lisansın bildirim ve atıf koşullarıyla ticari yeniden kullanım mümkündür. Ürün kodu, markalar, logolar ve üçüncü taraf materyal bu izinlerin dışındadır. Katkıcı haklarını korur; yalnız aynı dosya lisansıyla paylaşabileceği özgün içeriği gönderir. Bu, hak sahipliğinin devri değildir.
 

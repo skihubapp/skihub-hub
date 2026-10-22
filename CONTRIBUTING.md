@@ -39,7 +39,9 @@ This hub does not supply a runnable product environment or automatic source acce
 
 ## Review and acceptance
 
-Baran Bayran is the initial maintainer and reviews external documentation PRs. Product-code integration and technical-claim tasks require an authorized technical reviewer, to be assigned. Authors cannot approve their own PRs in GitHub; a self-authored contribution requires another authorized reviewer.
+Baran Bayran is the initial maintainer and reviews external documentation PRs. SkiHub Tech coordinates two independent technical review agents with accepted scopes: **Flow & QA** for HUB-02 and **Architecture, Evidence & Security** for HUB-04. Their source-bound findings support maintainer review; they are not separate GitHub users, permission grants, or submitted PR approvals. Their readiness review does not approve an unseen future PR. Product-code integration still requires a separately authorized technical maintainer and approved scope. Authors cannot approve their own PRs in GitHub; a self-authored contribution requires another authorized reviewer.
+
+HUB-02 and HUB-04 share `docs/product.md` and `docs/status-and-roadmap.md`. Claiming either task does not reserve simultaneous editing rights: the maintainer confirms one writer and a current source for the shared files. Complete and freeze HUB-02's accepted documentation change before HUB-04 edits those files; HUB-04 must preserve that accepted change and use the latest approved base. Both tasks can be requested now, but work starts only after the maintainer confirms the appropriate handoff.
 
 CODEOWNERS routes review requests. It does not make approval mandatory by itself, confer access, or establish that branch protections are enabled. A passing check is one input to acceptance; maintainers also review accuracy, scope, privacy, terms, and task criteria. No hub PR automatically merges to product source or deploys a release.
 

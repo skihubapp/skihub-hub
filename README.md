@@ -1,6 +1,6 @@
 [Türkçe](README.tr.md) · English
 
-<!-- content-version: 2026-10-22.4 -->
+<!-- content-version: 2026-10-22.5 -->
 
 # SkiHub
 
@@ -35,7 +35,7 @@ We use four explicit labels: **Verified**, **In development**, **Planned**, and 
 <!-- section: contribute -->
 ## Contribute with a clear scope
 
-The [initial task list](docs/contribution-paths.md) contains four documentation tasks using public files. **HUB-01** (readability and language parity) and **HUB-03** (contributor onboarding) are Ready to claim, with Baran Bayran reviewing external contributions. HUB-02 and HUB-04 remain Prepared until a technical reviewer is assigned. Product-code work requires a separately approved scope and suitable access.
+The [initial task list](docs/contribution-paths.md) contains four documentation tasks using public files. **HUB-01, HUB-02, HUB-03, and HUB-04 are Ready to claim**. Baran Bayran reviews external contributions. SkiHub Tech coordinates two accepted technical review roles: Flow & QA for HUB-02, and Architecture, Evidence & Security for HUB-04. Shared-file work runs in order: HUB-02, then HUB-04 from the current accepted source. These review agents provide technical findings; they are not separate GitHub accounts or PR approvals. Product-code work requires a separately approved scope and suitable access.
 
 Original hub text is licensed under **CC BY 4.0**; the checker, CI, and contribution templates use **MIT**, with exact paths in [LICENSE.md](LICENSE.md). Commercial reuse is allowed under the applicable license, including its notice and attribution requirements. Product code, trademarks, logos, and third-party material are outside these grants. Contributors retain their rights and submit original material they can license under the same terms for its path; this is not a transfer of ownership.
 

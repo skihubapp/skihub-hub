@@ -1,6 +1,6 @@
 # Status and roadmap
 
-Public editorial review date: **22 October 2026**. This date identifies the preparation of this document, not the date of a successful live-product test. Baran Bayran owns publication decisions; the technical reviewer is to be assigned.
+Public editorial review date: **22 October 2026**. This date identifies the preparation of this document, not the date of a successful live-product test. Baran Bayran owns publication decisions. SkiHub Tech coordinates the accepted technical review roles for HUB-02 and HUB-04; this does not appoint a product integration owner or establish live acceptance.
 
 ## Status vocabulary
 
@@ -17,7 +17,7 @@ Do not promote one kind of evidence into another. A local check is not a live te
 
 | Area | Status | What can be said safely | What remains to be established |
 | --- | --- | --- | --- |
-| Knowledge and contribution hub | **Verified — documentation only** | Public documentation and path-specific licenses provide a bounded contribution route; HUB-01 and HUB-03 are Ready to claim. | A contributor must claim a task and receive scope/reviewer confirmation; technical tasks still need a technical reviewer. |
+| Knowledge and contribution hub | **Verified — documentation only** | Public documentation and path-specific licenses provide a bounded contribution route; all four tasks are Ready to claim, with two accepted technical review roles. | Maintainer confirmation is required before work. HUB-04 execution is queued after HUB-02's accepted source handoff; agent findings do not replace GitHub approval. |
 | Instructor application and sign-in | **In development**; live **Verification pending** | Application code is present; a bounded presentation module was checked in isolation. | Controlled end-to-end evidence, authorization behavior, and useful error states |
 | Instructor approval and AI Match | **In development**; live **Verification pending** | Source and scoped test evidence exist. Identity/document checks, resort eligibility, and current availability remain mandatory filters. | Evidence that each relevant live path enforces every filter |
 | Reservations and payments | **Verification pending** | Core must own consistent reservation and payment state. | Availability contention, duplicate requests, failure recovery, and reconciled payment evidence |
@@ -31,11 +31,13 @@ No live capability in this table is marked Verified. Detailed evidence and acces
 
 1. **Reliable customer flow.** Establish a controlled acceptance path for application, sign-in, approval, and reservation before making stronger public claims. Owner: technical maintainer, to be assigned. Completion measure: the named flow has reviewed evidence for success and failure states. Risk: backend and test access may be unavailable.
 2. **Customer trust.** Verify that eligibility, resort, availability, and transaction rules hold in the relevant environment. Owner: technical maintainer with Baran Bayran's product review. Completion measure: each mandatory filter has a reviewed acceptance result and any limitation remains explicit. Risk: a partial test can be mistaken for full-flow acceptance.
-3. **Developer productivity.** Use the Ready documentation tasks to validate a small, reviewable contribution path. Owner: Baran Bayran; technical second reviewer to be assigned for technical work. Completion measure: one newcomer can reproduce the documented check and deliver a scoped PR. Risk: reviewer capacity can delay acceptance.
+3. **Developer productivity.** Use the Ready documentation tasks to validate a small, reviewable contribution path. Owner: Baran Bayran; SkiHub Tech coordinates accepted Flow & QA and Architecture, Evidence & Security technical review roles for the two technical documentation tasks. Completion measure: one newcomer can reproduce the documented check and deliver a scoped PR. Risk: reviewer capacity and the shared-file work order can delay acceptance.
 
 ## Contribution readiness
 
-Four public-file documentation tasks are listed in [contribution paths](contribution-paths.md). **HUB-01 and HUB-03 are Ready to claim**, with Baran Bayran reviewing external documentation PRs. A Ready task is available to request, not an automatic assignment. The maintainer confirms ownership and scope in the issue before work starts. **HUB-02 and HUB-04 remain Prepared** until an authorized technical reviewer is assigned.
+Four public-file documentation tasks are listed in [contribution paths](contribution-paths.md). **HUB-01, HUB-02, HUB-03, and HUB-04 are Ready to claim**, with Baran Bayran reviewing external documentation PRs. SkiHub Tech coordinates two independent technical review agents: Flow & QA for HUB-02 and Architecture, Evidence & Security for HUB-04. Their accepted scopes resolve the technical-reviewer prerequisite; agent findings do not constitute a GitHub account or PR approval, and they do not approve an unseen future contribution.
+
+A Ready task is available to request, not an automatic assignment. The maintainer confirms ownership, source, and scope in the issue before work starts. Shared-file edits run **HUB-02 first, then HUB-04** from the current accepted base after handoff, with one writer at a time. An accepted HUB-02 change must be preserved. Contributor completion, technical review, required independent GitHub approval, merge, and live product acceptance remain separate states.
 
 Product-code tasks are not offered as public starter issues. A suitable source scope, runnable environment, terms, owner, and reviewer must exist before such a task is considered ready. Historical bug reports must be reproduced before they become current bug claims.
 
