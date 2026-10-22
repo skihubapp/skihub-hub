@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Baran Bayran
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: mailto:info@skihub.com.tr
+    about: Send a minimal report privately. Do not post secrets, personal data, or exploit details in an issue.
+  - name: Invited developer or business enquiry
+    url: mailto:info@skihub.com.tr
+    about: Request the approved onboarding route or written business information. Do not include credentials.
