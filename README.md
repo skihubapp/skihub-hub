@@ -1,6 +1,6 @@
 [Türkçe](README.tr.md) · English
 
-<!-- content-version: 2026-10-22.1 -->
+<!-- content-version: 2026-10-22.2 -->
 
 # SkiHub
 
@@ -28,7 +28,7 @@ SkiHub Core is the required source of truth for identities, eligibility, availab
 <!-- section: status -->
 ## What is verified today?
 
-This package describes the founder-supplied product context and proposed working rules. Live verification is pending for instructor applications, sign-in, instructor approval, AI Match, reservations, payments, rentals, and Camp. No user, revenue, partner, security-audit, or operating-scale claim is made here.
+Current source review confirms that instructor application and transaction-related code exists. This preparation also checked a small application presentation module with isolated tests. Live end-to-end verification remains pending for instructor applications, sign-in, instructor approval, AI Match, reservations, payments, rentals, and Camp. No user, revenue, partner, security-audit, or operating-scale claim is made here.
 
 We use four explicit labels: **Verified**, **In development**, **Planned**, and **Verification pending**. A note or code review alone does not prove a working live flow. See the [status and roadmap](docs/status-and-roadmap.md) for the scope of each label.
 

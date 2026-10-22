@@ -1,6 +1,6 @@
 [English](README.md) · Türkçe
 
-<!-- content-version: 2026-10-22.1 -->
+<!-- content-version: 2026-10-22.2 -->
 
 # SkiHub
 
@@ -28,7 +28,7 @@ SkiHub Core; kimlik, uygunluk, müsaitlik, rezervasyon, ödeme, kiralama ve yoru
 <!-- section: status -->
 ## Bugün ne doğrulandı?
 
-Bu paket, kurucunun verdiği ürün bağlamını ve önerilen çalışma kurallarını açıklar. Eğitmen başvurusu, giriş, eğitmen onayı, AI Match, rezervasyon, ödeme, kiralama ve Camp için canlı doğrulama beklenmektedir. Burada kullanıcı, gelir, iş ortağı, güvenlik denetimi veya operasyon büyüklüğü iddiası yer almaz.
+Güncel kaynak incelemesi, eğitmen başvurusu ve işlem akışlarıyla ilgili kodun bulunduğunu doğruladı. Bu hazırlıkta başvuru arayüzünün küçük bir modülü de izole testlerle kontrol edildi. Eğitmen başvurusu, giriş, eğitmen onayı, AI Match, rezervasyon, ödeme, kiralama ve Camp için canlı uçtan uca doğrulama beklenmektedir. Burada kullanıcı, gelir, iş ortağı, güvenlik denetimi veya operasyon büyüklüğü iddiası yer almaz.
 
 Dört açık durum kullanırız: **Doğrulandı**, **Geliştirme aşamasında**, **Planlanıyor** ve **Doğrulama bekliyor**. Bir not veya yalnızca kod incelemesi, çalışan canlı akışın kanıtı değildir. Her durumun kapsamı için [durum ve yol haritasını](docs/status-and-roadmap.md) incele.
 

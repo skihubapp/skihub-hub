@@ -18,12 +18,12 @@ Do not promote one kind of evidence into another. A local check is not a live te
 | Area | Status | What can be said safely | What remains to be established |
 | --- | --- | --- | --- |
 | Knowledge and contribution hub | **Planned** for publication | Documentation is prepared as a publication candidate. | Publication decision, applicable terms, human review, and enabling contribution acceptance |
-| Instructor application and sign-in | **Verification pending** | These are priority product flows. | Controlled end-to-end evidence, authorization behavior, and useful error states |
-| Instructor approval and AI Match | **Verification pending** | Identity/document checks, resort eligibility, and current availability are mandatory design filters. | Evidence that each relevant live path enforces every filter |
+| Instructor application and sign-in | **In development**; live **Verification pending** | Application code is present; a bounded presentation module was checked in isolation. | Controlled end-to-end evidence, authorization behavior, and useful error states |
+| Instructor approval and AI Match | **In development**; live **Verification pending** | Source and scoped test evidence exist. Identity/document checks, resort eligibility, and current availability remain mandatory filters. | Evidence that each relevant live path enforces every filter |
 | Reservations and payments | **Verification pending** | Core must own consistent reservation and payment state. | Availability contention, duplicate requests, failure recovery, and reconciled payment evidence |
-| Equipment rental | **Verification pending** | Rental discovery and requests are within the product intent. | Current inventory/availability behavior and a verified fulfillment flow |
-| Camp | **Verification pending** | Camp is an area to clarify. | Confirmed scope, user flow, ownership, and operating evidence |
-| Brand connections | **Verification pending** | SkiHub is the main brand; KayakHocam.com and KiralıkKayak.com are entry points in the positioning. | Current technical connections and shared identity behavior |
+| Equipment rental | Live **Verification pending** | Catalog and request source surfaces are present. | Current inventory/availability behavior and a verified fulfillment flow |
+| Camp | **In development**; live **Verification pending** | Camp request and controlled management work has source evidence. | Complete current flow, publication, booking and operating evidence |
+| Brand connections | Live **Verification pending** | Separate branded landing preparations exist. SkiHub is the main brand; KayakHocam.com and KiralıkKayak.com are entry points. | Current deployment, technical connections and shared identity behavior |
 
 No live capability in this table is marked Verified. Detailed evidence and access-sensitive findings belong in an authorized private record; this public file receives only an approved summary.
 
