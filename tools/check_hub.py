@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Baran Bayran
 """Offline checks for this documentation hub; Python 3.12, standard library only.
 
 Checks the current working tree, not Git history, external links, legal approval,
@@ -27,6 +29,7 @@ REQUIRED = frozenset({
     "docs/contribution-paths.md", "docs/partners.md",
     ".github/CODEOWNERS", ".github/PULL_REQUEST_TEMPLATE.md",
     ".github/workflows/docs.yml", "tools/check_hub.py",
+    "LICENSE.md", "LICENSES/CC-BY-4.0.txt", "LICENSES/MIT.txt",
 })
 ENTRY_PATHS = frozenset({
     "docs/product.md", "docs/contribution-paths.md", "CONTRIBUTING.md",

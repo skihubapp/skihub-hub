@@ -17,7 +17,7 @@ Do not promote one kind of evidence into another. A local check is not a live te
 
 | Area | Status | What can be said safely | What remains to be established |
 | --- | --- | --- | --- |
-| Knowledge and contribution hub | **Planned** for publication | Documentation is prepared as a publication candidate. | Publication decision, applicable terms, human review, and enabling contribution acceptance |
+| Knowledge and contribution hub | **Verified — documentation only** | Public documentation and path-specific licenses provide a bounded contribution route; HUB-01 and HUB-03 are Ready to claim. | A contributor must claim a task and receive scope/reviewer confirmation; technical tasks still need a technical reviewer. |
 | Instructor application and sign-in | **In development**; live **Verification pending** | Application code is present; a bounded presentation module was checked in isolation. | Controlled end-to-end evidence, authorization behavior, and useful error states |
 | Instructor approval and AI Match | **In development**; live **Verification pending** | Source and scoped test evidence exist. Identity/document checks, resort eligibility, and current availability remain mandatory filters. | Evidence that each relevant live path enforces every filter |
 | Reservations and payments | **Verification pending** | Core must own consistent reservation and payment state. | Availability contention, duplicate requests, failure recovery, and reconciled payment evidence |
@@ -31,21 +31,21 @@ No live capability in this table is marked Verified. Detailed evidence and acces
 
 1. **Reliable customer flow.** Establish a controlled acceptance path for application, sign-in, approval, and reservation before making stronger public claims. Owner: technical maintainer, to be assigned. Completion measure: the named flow has reviewed evidence for success and failure states. Risk: backend and test access may be unavailable.
 2. **Customer trust.** Verify that eligibility, resort, availability, and transaction rules hold in the relevant environment. Owner: technical maintainer with Baran Bayran's product review. Completion measure: each mandatory filter has a reviewed acceptance result and any limitation remains explicit. Risk: a partial test can be mistaken for full-flow acceptance.
-3. **Developer productivity.** Open a small, reviewable contribution path once publication and terms are approved. Owner: Baran Bayran; technical second reviewer to be assigned. Completion measure: one newcomer can reproduce the documented check and deliver a scoped PR. Risk: unresolved terms or reviewer capacity can delay acceptance.
+3. **Developer productivity.** Use the Ready documentation tasks to validate a small, reviewable contribution path. Owner: Baran Bayran; technical second reviewer to be assigned for technical work. Completion measure: one newcomer can reproduce the documented check and deliver a scoped PR. Risk: reviewer capacity can delay acceptance.
 
 ## Contribution readiness
 
-Four public-file documentation tasks are prepared in [contribution paths](contribution-paths.md). **Acceptance remains closed.** No issue is Ready and no `good first issue` label should be applied until publication, contribution terms, task ownership, and reviewer availability are confirmed.
+Four public-file documentation tasks are listed in [contribution paths](contribution-paths.md). **HUB-01 and HUB-03 are Ready to claim**, with Baran Bayran reviewing external documentation PRs. A Ready task is available to request, not an automatic assignment. The maintainer confirms ownership and scope in the issue before work starts. **HUB-02 and HUB-04 remain Prepared** until an authorized technical reviewer is assigned.
 
 Product-code tasks are not offered as public starter issues. A suitable source scope, runnable environment, terms, owner, and reviewer must exist before such a task is considered ready. Historical bug reports must be reproduced before they become current bug claims.
 
 ## Proposed outcome checkpoints
 
-These are targets after the corresponding approvals and access are available, not calendar commitments.
+These are targets after a contributor's claim and relevant access are confirmed, not calendar commitments.
 
 | Horizon | Outcome and KPI | Responsible role | Main risk |
 | --- | --- | --- | --- |
-| 24 hours | Record publication/terms decisions and identify the assigned task and independent reviewer. KPI: one complete decision record and one owned starter task. | Baran Bayran | Terms or reviewer choice remains unresolved. |
+| 24 hours | Confirm a contributor's claim for a Ready task and its independent reviewer. KPI: one owned starter task with explicit scope and acceptance criteria. | Baran Bayran | A contributor or reviewer is unavailable. |
 | 7 days | A newcomer completes onboarding and submits one scoped documentation PR. KPI: the check runs from a clean checkout and the PR receives a substantive review. | Contributor and reviewer | Instructions omit a prerequisite or review capacity is limited. |
 | 30 days | Accept one appropriate contribution; if it affects product code, separately verify its controlled integration. KPI: one traceable acceptance record with relevant test evidence. | Authorized maintainer | Product-code access and test environment are not yet available. |
 

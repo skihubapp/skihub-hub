@@ -1,12 +1,12 @@
 [Türkçe](README.tr.md) · English
 
-<!-- content-version: 2026-10-22.3 -->
+<!-- content-version: 2026-10-22.4 -->
 
 # SkiHub
 
 SkiHub is a venture connecting people who want to ski with instructors and equipment rental providers, with a focus on reservations and trust. This hub is the starting point for learning about the product, contributing, joining as an invited developer, and requesting written business information.
 
-**Preparation status:** this is a candidate for public publication. Publication and contribution terms require the founder's approval. Contribution acceptance is closed until those decisions are recorded. Preparing these documents does not verify a live product flow.
+**Contribution status:** public documentation contributions are open for the **Ready** tasks below under the [published licenses](LICENSE.md). Claim a task and receive maintainer confirmation before starting. Publishing this hub does not verify a live product flow.
 
 <!-- section: start -->
 ## Choose your starting point
@@ -14,7 +14,7 @@ SkiHub is a venture connecting people who want to ski with instructors and equip
 | I want to… | Start here | What happens next |
 | --- | --- | --- |
 | Understand SkiHub | [Product](docs/product.md), [current status](docs/status-and-roadmap.md) | Read the product scope and the limits of current evidence. |
-| Make a technical contribution | [Contribution paths](docs/contribution-paths.md), [contribution guide](CONTRIBUTING.md) | Review a bounded task; wait for contribution acceptance to open before submitting work. |
+| Make a technical contribution | [Contribution paths](docs/contribution-paths.md), [contribution guide](CONTRIBUTING.md) | Choose a Ready documentation task, confirm its scope with the maintainer, then submit a focused PR. |
 | Start as an invited developer | [Invited developer route](CONTRIBUTING.md#invited-developers) | Request the assigned scope and onboarding details through the company contact. Access is approved individually. |
 | Explore a partnership, sponsorship, or investment | [Business enquiries](docs/partners.md) | Send a short written enquiry to [info@skihub.com.tr](mailto:info@skihub.com.tr). |
 
@@ -35,9 +35,11 @@ We use four explicit labels: **Verified**, **In development**, **Planned**, and 
 <!-- section: contribute -->
 ## Contribute with a clear scope
 
-The [initial task list](docs/contribution-paths.md) contains four documentation tasks that can be completed using public files after publication and contribution terms are approved. They are prepared candidates; they are not open assignments yet. Product-code work requires a separately approved scope and suitable access.
+The [initial task list](docs/contribution-paths.md) contains four documentation tasks using public files. **HUB-01** (readability and language parity) and **HUB-03** (contributor onboarding) are Ready to claim, with Baran Bayran reviewing external contributions. HUB-02 and HUB-04 remain Prepared until a technical reviewer is assigned. Product-code work requires a separately approved scope and suitable access.
 
-Contributions are voluntary. There is no promise of pay, equity, employment, or partnership. Publication and sending a PR do not by themselves settle rights or commercial-use terms. No license has been selected for this candidate; the founder must approve the applicable terms before contribution acceptance opens. Authors receive attribution in the accepted PR history unless they request otherwise.
+Original hub text is licensed under **CC BY 4.0**; the checker, CI, and contribution templates use **MIT**, with exact paths in [LICENSE.md](LICENSE.md). Commercial reuse is allowed under the applicable license, including its notice and attribution requirements. Product code, trademarks, logos, and third-party material are outside these grants. Contributors retain their rights and submit original material they can license under the same terms for its path; this is not a transfer of ownership.
+
+Contributions are voluntary. There is no promise of pay, equity, employment, partnership, or future work. Accepted contributions are credited in the PR history.
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.md), and the [security reporting guide](SECURITY.md) before participating. Communication is written by default; calls are optional.
 
@@ -46,7 +48,7 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), the [code of conduct](CODE_OF_CONDUCT.m
 
 This hub contains shareable documentation. It does not contain the commercial product source, customer records, credentials, or private onboarding details. A branch, folder, or CODEOWNERS entry does not restrict who can read a repository.
 
-Baran Bayran is the initial maintainer and reviews external documentation PRs. For this initial agent-prepared hub, he reviews the preview and records a publication decision; this is not a GitHub self-approval. Product-code changes require an authorized technical reviewer, to be assigned. CODEOWNERS routes review; it does not itself enforce approval or branch protection.
+Baran Bayran is the initial maintainer and reviews external documentation PRs. A PR author needs another authorized reviewer. Product-code changes require an authorized technical reviewer, to be assigned. CODEOWNERS routes review; it does not itself enforce approval or branch protection.
 
 <!-- section: maintain -->
 ## Keep both languages aligned

@@ -1,13 +1,13 @@
 # Contribution paths
 
-**Acceptance is closed while publication and contribution terms await approval.** The tasks below are prepared candidates, not current invitations or claims of existing defects. All four can be completed with public documentation once approved; none requires product source, personal data, or production access.
+**HUB-01 and HUB-03 are Ready to claim.** Baran Bayran reviews external documentation contributions under the [published licenses](../LICENSE.md). HUB-02 and HUB-04 remain Prepared until an authorized technical reviewer is assigned. These are review tasks, not claims of existing defects. All four use public documentation; none requires product source, personal data, or production access.
 
-Start with the task that matches your skill. Read [CONTRIBUTING.md](../CONTRIBUTING.md) before doing work. Written communication is the default. A maintainer confirms task ownership before a contributor begins.
+Start with a Ready task that matches your skill. Read [CONTRIBUTING.md](../CONTRIBUTING.md), then comment on the task's issue to request ownership and describe your intended change. Written communication is the default. The maintainer confirms task ownership, scope, and reviewer before a contributor begins; do not duplicate a claimed task.
 
 ## Shared prerequisites and execution
 
-- Publication and contribution terms must be approved and the acceptance notice updated.
-- Baran Bayran confirms scope and an independent reviewer. A technical second reviewer is to be assigned where technical claims are involved or Baran authors the PR.
+- Contributions must follow the license for each destination path in [LICENSE.md](../LICENSE.md).
+- Baran Bayran confirms scope, the contributor who will own the task, and an independent reviewer in the issue. A technical second reviewer is required where technical claims are involved; another authorized reviewer is required if Baran authors the PR.
 - Use a local checkout and Python 3.10 or later. No service account, product credentials, database, paid tool, or new dependency is needed.
 - From the repository root, run `python tools/check_hub.py`. Read the files in GitHub's rendered view or an available Markdown preview. Do not install a documentation framework for these tasks.
 - Record the command, result, and manual review in the PR. A clean check does not replace semantic review.
@@ -27,10 +27,11 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Acceptance | Four routes remain reachable; both languages have equivalent meaning and status; every edit is paired; no link relies on “click here”; confirmed issues and manual checks are listed in the PR. |
 | Test evidence | Passing checker output plus a written keyboard/navigation and narrow-screen review; no sensitive screenshots |
 | Priority / size | P1 / XS |
-| Dependencies | Shared publication/terms gate; task owner and independent reviewer confirmed |
+| Dependencies | Published terms and checker available; maintainer confirms the contributor's claim and scope before work starts |
 | Reviewer | Baran Bayran; another authorized reviewer required if he authors the PR |
-| Access / state | Public files only / Prepared; acceptance closed |
-| Labels after ready | `documentation`, `good first issue`; apply only after the gate is satisfied |
+| Owner | Contributor whose claim is confirmed in the issue; unclaimed work is available to request |
+| Access / state | Public files only / Ready to claim |
+| Labels | `documentation`, `good first issue` |
 
 ## HUB-02 — Make flow-state review criteria unambiguous
 
@@ -45,10 +46,11 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Acceptance | Each selected flow has clear expected outcomes; expectations are distinguished from observed behavior; mandatory eligibility filters remain explicit; no runtime claim is added without approved evidence. |
 | Test evidence | Passing checker output and a review table mapping each expectation to its documentation location |
 | Priority / size | P1 / S |
-| Dependencies | Shared gate; technical reviewer assigned before accepting technical criteria |
+| Dependencies | Technical reviewer must be assigned and scope confirmed before the task becomes Ready |
 | Reviewer | Baran Bayran for product meaning; technical second reviewer to be assigned |
-| Access / state | Public files only / Prepared; acceptance closed |
-| Labels after ready | `documentation`, `help wanted`; apply only after the gate is satisfied |
+| Owner | Assigned only after the technical reviewer and contributor claim are confirmed |
+| Access / state | Public files only / Prepared; technical reviewer missing |
+| Labels after ready | `documentation`, `help wanted`; apply only after the reviewer prerequisite is satisfied |
 
 ## HUB-03 — Dry-run contributor onboarding
 
@@ -63,10 +65,11 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Acceptance | A new contributor can identify a task and its scope, run the check, name a short-lived branch, and prepare a PR with meaningful evidence. Any ambiguity must include a reproduction and a focused fix. |
 | Test evidence | Passing checker output and a brief first-run log containing no personal paths or credentials |
 | Priority / size | P2 / S |
-| Dependencies | Shared gate; final checker included in the published package |
+| Dependencies | Published terms and checker available; maintainer confirms the contributor's claim and scope before work starts |
 | Reviewer | Baran Bayran; another authorized reviewer required if he authors the PR |
-| Access / state | Public files only / Prepared; acceptance closed |
-| Labels after ready | `documentation`, `good first issue`; apply only after the gate is satisfied |
+| Owner | Contributor whose claim is confirmed in the issue; unclaimed work is available to request |
+| Access / state | Public files only / Ready to claim |
+| Labels | `documentation`, `good first issue` |
 
 ## HUB-04 — Review evidence labels and architectural boundaries
 
@@ -81,10 +84,11 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Acceptance | The diagram is readable; Core remains the required authority; every runtime claim retains an evidence boundary; README edits stay bilingual; no private detail is introduced. |
 | Test evidence | Passing checker output, diagram render review, and a short claim-review checklist |
 | Priority / size | P2 / S |
-| Dependencies | Shared gate; technical reviewer assigned before accepting technical edits |
+| Dependencies | Technical reviewer must be assigned and scope confirmed before the task becomes Ready |
 | Reviewer | Baran Bayran; technical second reviewer to be assigned |
-| Access / state | Public files only / Prepared; acceptance closed |
-| Labels after ready | `documentation`, `help wanted`; apply only after the gate is satisfied |
+| Owner | Assigned only after the technical reviewer and contributor claim are confirmed |
+| Access / state | Public files only / Prepared; technical reviewer missing |
+| Labels after ready | `documentation`, `help wanted`; apply only after the reviewer prerequisite is satisfied |
 
 ## Product-code work
 

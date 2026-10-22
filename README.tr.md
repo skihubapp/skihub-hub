@@ -1,12 +1,12 @@
 [English](README.md) · Türkçe
 
-<!-- content-version: 2026-10-22.3 -->
+<!-- content-version: 2026-10-22.4 -->
 
 # SkiHub
 
 SkiHub, kayak yapmak isteyenleri eğitmenler ve ekipman kiralama noktalarıyla buluşturan, rezervasyon ve güven süreçlerine odaklanan bir girişimdir. Bu merkez; ürünü tanımak, katkı vermek, davetli geliştirici olarak başlamak ve yazılı ticari bilgi istemek için başlangıç noktasıdır.
 
-**Hazırlık durumu:** bu içerik public yayına adaydır. Yayın ve katkı koşulları kurucunun onayını beklemektedir. Bu kararlar kayda geçene kadar katkı kabulü kapalıdır. Bu belgelerin hazırlanması, canlı ürün akışının doğrulandığı anlamına gelmez.
+**Katkı durumu:** **Ready (Hazır)** görevler için public dokümantasyon katkıları [yayımlanan lisanslar](LICENSE.md) kapsamında açıktır. Başlamadan önce görevi üstlenmek istediğini bildir ve bakım sorumlusunun onayını al. Bu merkezin yayımlanması, canlı ürün akışının doğrulandığı anlamına gelmez.
 
 <!-- section: start -->
 ## Başlangıç yolunu seç
@@ -14,7 +14,7 @@ SkiHub, kayak yapmak isteyenleri eğitmenler ve ekipman kiralama noktalarıyla b
 | Amacım… | Başlangıç noktası | Sonraki adım |
 | --- | --- | --- |
 | SkiHub'ı tanımak | [Ürün](docs/product.md), [güncel durum](docs/status-and-roadmap.md) | Ürün kapsamını ve mevcut kanıtların sınırını oku. |
-| Teknik katkı vermek | [Katkı yolları](docs/contribution-paths.md), [katkı rehberi](CONTRIBUTING.md) | Sınırları belirli bir görevi incele; çalışma göndermeden önce katkı kabulünün açılmasını bekle. |
+| Teknik katkı vermek | [Katkı yolları](docs/contribution-paths.md), [katkı rehberi](CONTRIBUTING.md) | Hazır bir dokümantasyon görevi seç, kapsamı bakım sorumlusuyla doğrula ve odaklı bir PR gönder. |
 | Davetli geliştirici olarak başlamak | [Davetli geliştirici yolu](CONTRIBUTING.md#invited-developers) | Şirket iletişim adresinden atanmış kapsamı ve başlangıç bilgilerini iste. Erişim kişi bazında onaylanır. |
 | İş birliği, sponsorluk veya yatırımı değerlendirmek | [Ticari iletişim](docs/partners.md) | [info@skihub.com.tr](mailto:info@skihub.com.tr) adresine kısa, yazılı bir talep gönder. |
 
@@ -35,9 +35,11 @@ Dört açık durum kullanırız: **Doğrulandı**, **Geliştirme aşamasında**,
 <!-- section: contribute -->
 ## Kapsamı belli bir işe katkı ver
 
-[İlk görev listesinde](docs/contribution-paths.md), yayın ve katkı koşulları onaylandıktan sonra yalnız public dosyalarla yapılabilecek dört dokümantasyon işi bulunur. Bunlar hazırlanmış adaylardır; henüz katkıya açılmış görevler değildir. Ürün kodu üzerinde çalışma, ayrıca onaylanmış kapsam ve uygun erişim gerektirir.
+[İlk görev listesinde](docs/contribution-paths.md), yalnız public dosyalarla yapılabilecek dört dokümantasyon işi bulunur. **HUB-01** (okunabilirlik ve dil eşliği) ile **HUB-03** (katkıcı başlangıcı) üstlenilmeye hazırdır; dış katkıları Baran Bayran inceler. HUB-02 ve HUB-04, teknik inceleyici atanana kadar **Prepared (Hazırlanmış)** durumundadır. Ürün kodu üzerinde çalışma, ayrıca onaylanmış kapsam ve uygun erişim gerektirir.
 
-Katkı gönüllüdür. Ücret, hisse, işe alım veya ortaklık garantisi verilmez. İçeriğin yayımlanması ve PR gönderilmesi tek başına hakları veya ticari kullanım koşullarını belirlemez. Bu aday için lisans seçilmemiştir; katkı kabulü açılmadan önce geçerli koşulları kurucu onaylamalıdır. Katkı sahibi farklı bir talepte bulunmadıkça, kabul edilen PR geçmişinde kendisine atıf yapılır.
+Özgün merkez metinleri **CC BY 4.0**; denetim aracı, CI ve katkı şablonları **MIT** lisanslıdır. Kesin dosya kapsamı [LICENSE.md](LICENSE.md) içindedir. Geçerli lisansın bildirim ve atıf koşullarıyla ticari yeniden kullanım mümkündür. Ürün kodu, markalar, logolar ve üçüncü taraf materyal bu izinlerin dışındadır. Katkıcı haklarını korur; yalnız aynı dosya lisansıyla paylaşabileceği özgün içeriği gönderir. Bu, hak sahipliğinin devri değildir.
+
+Katkı gönüllüdür. Ücret, hisse, işe alım, ortaklık veya gelecekte iş garantisi verilmez. Kabul edilen katkılara PR geçmişinde atıf yapılır.
 
 Katılmadan önce [CONTRIBUTING.md](CONTRIBUTING.md), [davranış kuralları](CODE_OF_CONDUCT.md) ve [güvenlik bildirim rehberini](SECURITY.md) oku. Varsayılan iletişim yazılıdır; görüşmeler isteğe bağlıdır.
 
@@ -46,7 +48,7 @@ Katılmadan önce [CONTRIBUTING.md](CONTRIBUTING.md), [davranış kuralları](CO
 
 Bu merkez paylaşılabilir dokümantasyon içerir. Ticari ürün kaynağı, müşteri kayıtları, erişim bilgileri veya özel geliştirici başlangıç ayrıntıları içermez. Branch, klasör veya CODEOWNERS kaydı bir depoyu kimlerin okuyabileceğini sınırlamaz.
 
-İlk bakım sorumlusu Baran Bayran'dır; dış katkıcıların dokümantasyon PR'larını inceler. Ajanın hazırladığı bu ilk merkezde önizlemeyi inceleyip yayın kararını kaydeder; bu, GitHub'da kendi PR'ını onaylamak değildir. Ürün kodu değişiklikleri için yetkili teknik inceleyici atanmalıdır. CODEOWNERS incelemeyi yönlendirir; tek başına onayı veya branch korumasını zorunlu kılmaz.
+İlk bakım sorumlusu Baran Bayran'dır; dış katkıcıların dokümantasyon PR'larını inceler. PR yazarı için başka bir yetkili inceleyici gerekir. Ürün kodu değişiklikleri için yetkili teknik inceleyici atanmalıdır. CODEOWNERS incelemeyi yönlendirir; tek başına onayı veya branch korumasını zorunlu kılmaz.
 
 <!-- section: maintain -->
 ## İki dili birlikte güncelle

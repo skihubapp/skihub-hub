@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Baran Bayran
 name: Scoped contribution task
 description: Define a bounded task with real files, acceptance criteria, and an independent reviewer.
 title: "[Task] "
@@ -5,8 +7,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Contribution acceptance remains closed until publication and applicable terms are approved. A completed template is not approval to begin.
-        Do not publish private source details. Public starter tasks must be executable with public files and approved terms.
+        Propose a bounded documentation task under the licenses in LICENSE.md. A maintainer confirms readiness, owner, scope, and independent reviewer before work begins.
+        Do not publish private source details. Public starter tasks must be executable with public files; technical-claim tasks require an authorized technical reviewer.
   - type: textarea
     id: problem
     attributes:
@@ -58,7 +60,7 @@ body:
     id: dependencies
     attributes:
       label: Dependencies, owner, and independent reviewer
-      description: State publication/terms gate, required access, owner, and reviewer. Use “to be assigned” rather than inventing a person.
+      description: State required access, the contributor's confirmed claim, owner, and reviewer. Use “to be assigned” rather than inventing a person.
     validations:
       required: true
   - type: dropdown
@@ -76,6 +78,6 @@ body:
       label: Maintainer readiness review
       description: Unchecked prerequisites mean the task is not Ready. Labels are assigned only after review.
       options:
-        - label: Publication and applicable contribution terms are approved; acceptance is open.
+        - label: The task follows LICENSE.md and is within the open public documentation scope.
         - label: Resources, owner, and independent reviewer are confirmed.
         - label: The task is executable at the stated access level with relevant checks.

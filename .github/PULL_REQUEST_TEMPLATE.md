@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: MIT -->
+<!-- Copyright (c) 2026 Baran Bayran -->
+
 ## Problem and resulting behavior
 
 Link the approved task and describe the observed documentation need. Do not include private addresses, source identifiers, personal data, or confidential evidence.
@@ -15,7 +18,8 @@ List the changed public files, why this solution fits, and anything deliberately
 
 ## Review checklist
 
-- [ ] Publication and applicable contribution terms are approved, and contribution acceptance is open.
+- [ ] A Ready task was claimed and its scope, owner, and reviewer were confirmed by the maintainer.
+- [ ] My contribution is original or I hold the required rights, and I submit it under the license for each changed path in LICENSE.md; existing notices are preserved.
 - [ ] The task has an owner, clear acceptance criteria, and an independent reviewer.
 - [ ] The change contains only approved public information, including its commit messages and attachments.
 - [ ] Product intentions and architecture rules remain distinct from verified runtime behavior.

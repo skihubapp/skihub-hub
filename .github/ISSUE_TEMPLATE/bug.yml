@@ -1,11 +1,13 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Baran Bayran
 name: Documentation bug
-description: Report a reproducible problem in public hub documentation after acceptance opens.
+description: Report a reproducible problem in public hub documentation.
 title: "[Docs bug] "
 body:
   - type: markdown
     attributes:
       value: |
-        Contribution acceptance is currently closed pending publication and contribution terms. This template is prepared for later use; it does not open acceptance.
+        Report an ordinary public documentation error here. Check for an existing issue before submitting; a report does not assign implementation work.
         Do not include credentials, personal data, private source details, or exploit instructions. Report sensitive concerns privately to info@skihub.com.tr.
   - type: checkboxes
     id: scope

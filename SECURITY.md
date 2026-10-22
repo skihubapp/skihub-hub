@@ -14,4 +14,4 @@ If a secret may be exposed, identify its type and location without reproducing t
 
 The maintainer should acknowledge a report when reviewed, arrange secure follow-up when needed, and coordinate any public summary after assessment. Keep sensitive evidence private while assessment and remediation are unresolved. Do not claim a finding is fixed, a flow is secure, or a security review is complete without appropriate verification.
 
-For ordinary documentation errors with no sensitive content, use the bug template after contribution acceptance opens. See [CONTRIBUTING.md](CONTRIBUTING.md) for current acceptance status.
+For ordinary documentation errors with no sensitive content, use the bug template. See [CONTRIBUTING.md](CONTRIBUTING.md) for the contribution route and current task readiness.

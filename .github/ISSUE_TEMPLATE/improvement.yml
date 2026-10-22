@@ -1,11 +1,13 @@
+# SPDX-License-Identifier: MIT
+# Copyright (c) 2026 Baran Bayran
 name: Documentation improvement
-description: Propose a focused improvement to shareable hub content after acceptance opens.
+description: Propose a focused improvement to shareable hub content.
 title: "[Docs improvement] "
 body:
   - type: markdown
     attributes:
       value: |
-        Contribution acceptance is closed pending publication and contribution terms. This is a prepared template, not an open assignment.
+        Propose a public documentation improvement. A maintainer must confirm task readiness, ownership, scope, and reviewer before implementation begins.
         Use public information only. Product-code access, licenses, visibility, and commercial decisions require separate approval.
   - type: textarea
     id: need

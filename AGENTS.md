@@ -2,7 +2,7 @@
 
 ## Scope
 
-This repository is a knowledge and contribution hub. Keep it documentation-first. Do not turn it into a product fork, automatic mirror, application prototype, or replacement source of transaction data. The prepared content is a publication candidate; publication and contribution terms require the founder's decision. Contribution acceptance remains closed until that decision is recorded and the notices are updated consistently.
+This repository is a knowledge and contribution hub. Keep it documentation-first. Do not turn it into a product fork, automatic mirror, application prototype, or replacement source of transaction data. Public documentation contributions are open for Ready tasks under `LICENSE.md`. A contributor must claim a task and receive maintainer confirmation of scope and independent reviewer before starting. Prepared tasks cannot be started until their missing prerequisites are resolved.
 
 Before editing, read `README.md`, `README.tr.md`, `CONTRIBUTING.md`, the relevant `docs/` file, and the existing checker. Inspect existing files and the requested delta. Preserve another contributor's changes. State a short plan, make the smallest reversible edit, check it, and report evidence and limitations.
 
@@ -38,6 +38,6 @@ Instructor identity/document verification, eligibility for the selected resort, 
 
 Baran Bayran is the verified initial CODEOWNER and reviews external documentation PRs. Product-code integration needs an authorized technical reviewer, to be assigned. Authors cannot approve their own PRs in GitHub. For the initial agent-prepared documentation hub only, a founder review of the preview and explicit publication decision may be recorded separately; never label it a GitHub approval. Later self-authored contribution PRs need another authorized reviewer. CODEOWNERS does not itself enforce review or prove repository protection.
 
-Do not merge, deploy, change visibility, grant access, select a license, accept new terms, buy a plan, or contact third parties as a side effect of an editing task. Follow the specific human authorization for those actions. No license is selected for this candidate, and contribution acceptance must not open before applicable terms are approved.
+Do not merge, deploy, change visibility, grant access, select a license, accept new terms, buy a plan, or contact third parties as a side effect of an editing task. Follow the specific human authorization for those actions. Preserve the exact licensing scope in `LICENSE.md`: original hub text is CC BY 4.0; specified tooling and contribution templates are MIT. Do not relicense product, brand, or third-party material.
 
 In the delivery, state what changed, why, the checks and their results, remaining risks or unknowns, and the single next action. Keep user-facing delivery in Turkish unless the user requests otherwise.
