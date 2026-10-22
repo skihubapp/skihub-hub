@@ -1,6 +1,6 @@
 # Contribution paths
 
-**HUB-01 and HUB-03 are Ready to claim.** Baran Bayran reviews external documentation contributions under the [published licenses](../LICENSE.md). HUB-02 and HUB-04 remain Prepared until an authorized technical reviewer is assigned. These are review tasks, not claims of existing defects. All four use public documentation; none requires product source, personal data, or production access.
+**All four tasks are Ready to claim.** Baran Bayran reviews external documentation contributions under the [published licenses](../LICENSE.md). SkiHub Tech coordinates the accepted Flow & QA technical review role for HUB-02 and the Architecture, Evidence & Security role for HUB-04. These are two independent review agents, not separate GitHub accounts or submitted PR approvals. The contributor tasks remain open and unclaimed. All four use public documentation; none requires product source, personal data, or production access.
 
 Start with a Ready task that matches your skill. Read [CONTRIBUTING.md](../CONTRIBUTING.md), then comment on the task's issue to request ownership and describe your intended change. Written communication is the default. The maintainer confirms task ownership, scope, and reviewer before a contributor begins; do not duplicate a claimed task.
 
@@ -13,6 +13,12 @@ Start with a Ready task that matches your skill. Read [CONTRIBUTING.md](../CONTR
 - Record the command, result, and manual review in the PR. A clean check does not replace semantic review.
 
 Sizes below are planning estimates, not a promise about contributor time. `XS` means roughly 1–2 hours; `S` means roughly half a day. Time may change after the initial review.
+
+### Technical review and shared-file order
+
+The two technical reviewers have accepted their bounded review roles. They will review a future contribution against its actual base, head, diff, and evidence; this readiness decision does not approve an unseen PR. Baran Bayran remains the real GitHub reviewer for external contributions where he is not the author. GitHub's required independent approvals and CODEOWNERS rules remain in force.
+
+Run shared-file work in this order: **HUB-02, then HUB-04**. Only one confirmed contributor may actively edit `docs/product.md` and `docs/status-and-roadmap.md` at a time. Freeze HUB-02's accepted commit and file hashes, then confirm HUB-04's claim and handoff against the current accepted base, preserving the previous delta. A Ready-to-claim label invites a request; it is not an assignment or permission to bypass that schedule.
 
 ## HUB-01 — Review readability, navigation, and language parity
 
@@ -43,14 +49,14 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Skills | Product QA, technical writing, understanding accessible forms |
 | Exact files | `docs/product.md`, `docs/status-and-roadmap.md` |
 | Run path | `python tools/check_hub.py`; manually compare each new expected state with the evidence labels |
-| Acceptance | Each selected flow has clear expected outcomes; expectations are distinguished from observed behavior; mandatory eligibility filters remain explicit; no runtime claim is added without approved evidence. |
-| Test evidence | Passing checker output and a review table mapping each expectation to its documentation location |
+| Acceptance | Cover application, sign-in/session, approval, and reservation against loading, empty, error, success, disabled, and offline states; a state may be not applicable with a reason. Distinguish expected outcomes from observed behavior; preserve mandatory eligibility filters; add no runtime claim without approved evidence. |
+| Test evidence | Passing checker output from the proposed source, a flow/state table mapping expectations to documentation locations, and rendered-Markdown meaning review; no live test is required for this documentation task |
 | Priority / size | P1 / S |
-| Dependencies | Technical reviewer must be assigned and scope confirmed before the task becomes Ready |
-| Reviewer | Baran Bayran for product meaning; technical second reviewer to be assigned |
-| Owner | Assigned only after the technical reviewer and contributor claim are confirmed |
-| Access / state | Public files only / Prepared; technical reviewer missing |
-| Labels after ready | `documentation`, `help wanted`; apply only after the reviewer prerequisite is satisfied |
+| Dependencies | Technical review role and two-file scope accepted; maintainer confirms the contributor claim, current base, and exclusive shared-file slot before work |
+| Reviewer | Flow & QA technical review agent coordinated by SkiHub Tech; Baran Bayran for product meaning and independent GitHub review of external PRs |
+| Owner | Unclaimed; contributor assigned only after maintainer confirmation |
+| Access / state | Public files only / Ready to claim; first in the shared-file sequence |
+| Labels | `documentation`, `help wanted` |
 
 ## HUB-03 — Dry-run contributor onboarding
 
@@ -84,11 +90,11 @@ Sizes below are planning estimates, not a promise about contributor time. `XS` m
 | Acceptance | The diagram is readable; Core remains the required authority; every runtime claim retains an evidence boundary; README edits stay bilingual; no private detail is introduced. |
 | Test evidence | Passing checker output, diagram render review, and a short claim-review checklist |
 | Priority / size | P2 / S |
-| Dependencies | Technical reviewer must be assigned and scope confirmed before the task becomes Ready |
-| Reviewer | Baran Bayran; technical second reviewer to be assigned |
-| Owner | Assigned only after the technical reviewer and contributor claim are confirmed |
-| Access / state | Public files only / Prepared; technical reviewer missing |
-| Labels after ready | `documentation`, `help wanted`; apply only after the reviewer prerequisite is satisfied |
+| Dependencies | Technical review role and five-file scope accepted; shared-file edits follow HUB-02's accepted handoff and current base; maintainer confirms the contributor claim before work |
+| Reviewer | Architecture, Evidence & Security technical review agent coordinated by SkiHub Tech; Baran Bayran for independent GitHub review of external PRs |
+| Owner | Unclaimed; contributor assigned only after maintainer confirmation and source handoff |
+| Access / state | Public files only / Ready to claim; execution queued after HUB-02's accepted source handoff |
+| Labels | `documentation`, `help wanted` |
 
 ## Product-code work
 
